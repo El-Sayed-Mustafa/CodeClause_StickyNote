@@ -9,7 +9,6 @@ import kotlinx.coroutines.flow.Flow
 
 class NoteRepoImp(private val Dao:NoteDao) :NoteRepo {
     override fun getNotes(): Flow<List<Note>> {
-
         return Dao.getNotes()
     }
 

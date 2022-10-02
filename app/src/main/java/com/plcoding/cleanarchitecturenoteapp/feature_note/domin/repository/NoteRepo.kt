@@ -13,5 +13,4 @@ interface NoteRepo {
 
     suspend fun deleteNote(note: Note)
 
-
 }
