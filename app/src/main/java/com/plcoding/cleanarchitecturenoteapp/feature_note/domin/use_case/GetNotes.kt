@@ -7,7 +7,7 @@ import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class getNotes(private val repo: NoteRepo) {
+class GetNotes(private val repo: NoteRepo) {
 
     operator fun invoke(
         noteOrder: NoteOrder = NoteOrder.Date(OrderType.Descending)
