@@ -10,6 +10,7 @@ import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.use_case.GetNote
 import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.use_case.NoteUseCases
 
 import com.plcoding.cleanarchitecturenoteapp.feature_note.data.data_source.NoteDB
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.use_case.addNote
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -41,7 +42,8 @@ object AppModule {
     fun ProvideNoteUseCases(repo: NoteRepo):NoteUseCases{
         return NoteUseCases(
             getNotes = GetNotes(repo),
-            deleteNote = DeleteNote(repo)
+            deleteNote = DeleteNote(repo),
+            addNote = addNote(repo)
         )
     }
 }
