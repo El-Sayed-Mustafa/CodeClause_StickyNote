@@ -1,9 +1,9 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.domin.use_case
+package com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case
 
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.repository.NoteRepo
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.NoteOrder
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.OrderType
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.repository.NoteRepo
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.NoteOrder
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

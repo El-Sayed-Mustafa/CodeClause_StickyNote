@@ -4,10 +4,10 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.use_case.NoteUseCases
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.NoteOrder
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.OrderType
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.NoteUseCases
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.NoteOrder
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.OrderType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn

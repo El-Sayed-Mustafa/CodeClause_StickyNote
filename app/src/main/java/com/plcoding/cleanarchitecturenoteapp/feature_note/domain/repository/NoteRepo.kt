@@ -1,6 +1,6 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.domin.repository
+package com.plcoding.cleanarchitecturenoteapp.feature_note.domain.repository
 
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 interface NoteRepo {

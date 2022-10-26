@@ -5,7 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 @Dao

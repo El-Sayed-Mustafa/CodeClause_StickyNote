@@ -1,7 +1,7 @@
 package com.plcoding.cleanarchitecturenoteapp.feature_note.presentaion.notes
 
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.util.NoteOrder
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.NoteOrder
 
 sealed class NotesEvent {
     data class Order(val noteOrder: NoteOrder) : NotesEvent()

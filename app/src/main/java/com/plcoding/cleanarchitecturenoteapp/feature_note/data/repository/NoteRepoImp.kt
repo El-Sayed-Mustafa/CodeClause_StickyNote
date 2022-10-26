@@ -1,10 +1,8 @@
 package com.plcoding.cleanarchitecturenoteapp.feature_note.data.repository
 
-import android.os.Parcel
-import android.os.Parcelable
 import com.plcoding.cleanarchitecturenoteapp.feature_note.data.data_source.NoteDao
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.model.Note
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domin.repository.NoteRepo
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.repository.NoteRepo
 import kotlinx.coroutines.flow.Flow
 
 class NoteRepoImp(private val Dao:NoteDao) :NoteRepo {
