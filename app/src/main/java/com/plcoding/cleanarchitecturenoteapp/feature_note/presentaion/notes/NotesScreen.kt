@@ -14,12 +14,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.BlendMode.Companion.Screen
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.plcoding.cleanarchitecturenoteapp.feature_note.presentaion.notes.component.NoteItem
 import com.plcoding.cleanarchitecturenoteapp.feature_note.presentaion.notes.component.OrderSection
+import com.plcoding.cleanarchitecturenoteapp.feature_note.presentaion.util.Screen
 
 import kotlinx.coroutines.launch
 
